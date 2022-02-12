@@ -7,11 +7,17 @@ In this project I created an AWS RDS database and four tables in pgAdmin into wh
 Before I created the DataFrames displaying the number of Vine reviews vs. the number of regular reviews, I removed all rows where the total number of votes was less than 20, plus the rows where the percentage of helpful votes was less than 50%.
 
 ### Vine reviews
+
+![Vine reviews](https://github.com/MaxV6ft4/Amazon_Vine_Analysis/blob/main/Screenshots/Vine_reviews.png)
+
 - Unfortunately in this music dataset, after the multiple filters I discovered that there were only seven total Vine reviews.
 - Furthermore, of those reviews, none of them were five-star reviews.  All were either three or four stars.
 - Therefore, the percentage of reviews being five-star was zero.
 
 ### non-Vine reviews
+
+![non-Vine reviews](https://github.com/MaxV6ft4/Amazon_Vine_Analysis/blob/main/Screenshots/other_reviews.png)
+
 - There was a total of 105,979 non-Vine reviews.
 - Of those reviews, 67,580 were five-star reviews.
 - The percentage of non-Vine five-star reviews was 64%.
